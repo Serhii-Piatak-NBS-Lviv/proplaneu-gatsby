@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: $dark;
+    overflow-x: hidden;
+
+    #___gatsby {
+        min-height: 100vh;
+
+        #gatsby-focus-wrapper {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
